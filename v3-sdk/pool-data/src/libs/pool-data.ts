@@ -24,6 +24,9 @@ export async function getFullPool(): Promise<{
     IUniswapV3PoolABI.abi,
     getMainnetProvider()
   )
+
+  window.pc = poolContract
+
   const [slot0, liquidity, graphTicks] = await Promise.all([
     poolContract.slot0(),
     poolContract.liquidity(),
@@ -111,8 +114,13 @@ async function getTickDataFromSubgraph(
     `,
   })
 
+  console.log("TQ", ticksQuery)
+  window.tq = ticksQuery
+
+  // const targetUrlOrig = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3'
+  const targetUrl = 'https://gateway-arbitrum.network.thegraph.com/api/86e1896460ce9791b029a385aa6d1467/subgraphs/id/3hCPRGf4z88VC5rsBKU5AA9FBBq5nF3jbKJG7VZCbhjm'
   const response = await axios.post(
-    'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3',
+    targetUrl,
     ticksQuery,
     {
       headers: {
@@ -120,6 +128,6 @@ async function getTickDataFromSubgraph(
       },
     }
   )
-
+  console.log('RESP', response)
   return response.data.data.ticks
 }

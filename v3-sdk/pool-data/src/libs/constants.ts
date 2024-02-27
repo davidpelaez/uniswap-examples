@@ -24,3 +24,19 @@ export const WBTC_TOKEN = new Token(
   'WBTC',
   'Wrapped BTC'
 )
+
+export const COPM_TOKEN = new Token(
+  SupportedChainId.POLYGON,
+  '0x12050c705152931cFEe3DD56c52Fb09Dea816C23',
+  18,
+  'COPM',
+  'COP Minteo'
+)
+
+export const USDC_TOKEN = new Token(
+  SupportedChainId.POLYGON,
+  '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
+  6,
+  'USDC',
+  'USD Coin'
+)

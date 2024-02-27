@@ -60,11 +60,11 @@ const Example = () => {
             </p>
           )}
           <p className="tooltip-label">
-            Price {pool.token0.symbol}: {tick.price0.toFixed(4)}
+            Price {pool.token0.symbol}: {tick.price0.toFixed(8)}
             {pool.token1.symbol}
           </p>
           <p className="tooltip-label">
-            Price {pool.token1.symbol}: {tick.price1.toFixed(4)}
+            Price {pool.token1.symbol}: {tick.price1.toFixed(8)}
             {pool.token0.symbol}
           </p>
         </div>
@@ -85,7 +85,11 @@ const Example = () => {
         </h2>
         <h3>
           Price: 1 {poolData?.pool.token0.symbol} ={' '}
-          {poolData?.pool.token0Price.toFixed(2)} {poolData?.pool.token1.symbol}
+          {poolData?.pool.token0Price.toFixed(5)} {poolData?.pool.token1.symbol}
+        </h3>
+        <h3>
+          Price: 1 {poolData?.pool.token1.symbol} ={' '}
+          {poolData?.pool.token1Price.toFixed(5)} {poolData?.pool.token0.symbol}
         </h3>
         <h3>Liquidity density:</h3>
       </div>

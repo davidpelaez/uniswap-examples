@@ -15,9 +15,9 @@ interface ExampleConfig {
 
 // Example Configuration
 export const CurrentConfig: ExampleConfig = {
-  chain: Chain.MAINNET,
+  chain: Chain.POLYGON,
   rpc: {
-    polygon: '',
-    mainnet: '',
+    polygon: 'https://polygon-mainnet.infura.io/v3/0013337897c94acd82a48d6722ef6f73',
+    mainnet: 'https://mainnet.infura.io/v3/4bf032f2d38a4ed6bb975b80d6340847',
   },
 }
