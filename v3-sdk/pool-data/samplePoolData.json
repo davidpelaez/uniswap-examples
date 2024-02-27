@@ -1,0 +1,283 @@
+{
+  "pool": {
+    "token0": {
+      "chainId": 137,
+      "decimals": 18,
+      "symbol": "COPM",
+      "name": "COP Minteo",
+      "isNative": false,
+      "isToken": true,
+      "address": "0x12050c705152931cFEe3DD56c52Fb09Dea816C23"
+    },
+    "token1": {
+      "chainId": 137,
+      "decimals": 6,
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "isNative": false,
+      "isToken": true,
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+    },
+    "fee": 10000,
+    "sqrtRatioX96": [983741642, 431738136, 1107],
+    "liquidity": [601944586, 29009242],
+    "tickCurrent": -358889,
+    "tickDataProvider": {
+      "ticks": [
+        {
+          "index": -359200,
+          "liquidityGross": [601944586, 29009242],
+          "liquidityNet": [601944586, 29009242]
+        },
+        {
+          "index": -358800,
+          "liquidityGross": [601944586, 29009242],
+          "liquidityNet": [601944586, 29009242]
+        }
+      ]
+    },
+    "_token0Price": {
+      "numerator": [391425892, 484568883, 1068382489, 411608268, 1226339],
+      "denominator": [0, 0, 0, 0, 0, 0, 4096],
+      "baseCurrency": {
+        "chainId": 137,
+        "decimals": 18,
+        "symbol": "COPM",
+        "name": "COP Minteo",
+        "isNative": false,
+        "isToken": true,
+        "address": "0x12050c705152931cFEe3DD56c52Fb09Dea816C23"
+      },
+      "quoteCurrency": {
+        "chainId": 137,
+        "decimals": 6,
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "isNative": false,
+        "isToken": true,
+        "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      },
+      "scalar": {
+        "numerator": [660865024, 931322574],
+        "denominator": [1000000]
+      }
+    },
+    "_token1Price": {
+      "numerator": [0, 0, 0, 0, 0, 0, 4096],
+      "denominator": [391425892, 484568883, 1068382489, 411608268, 1226339],
+      "baseCurrency": {
+        "chainId": 137,
+        "decimals": 6,
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "isNative": false,
+        "isToken": true,
+        "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      },
+      "quoteCurrency": {
+        "chainId": 137,
+        "decimals": 18,
+        "symbol": "COPM",
+        "name": "COP Minteo",
+        "isNative": false,
+        "isToken": true,
+        "address": "0x12050c705152931cFEe3DD56c52Fb09Dea816C23"
+      },
+      "scalar": {
+        "numerator": [1000000],
+        "denominator": [660865024, 931322574]
+      }
+    }
+  },
+  "ticks": [
+    {
+      "tickIdx": -361200,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002060950671803131,
+      "price1": 4852.129717035379,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -361000,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00021025825346591726,
+      "price1": 4756.055867086803,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -360800,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00021450553744626868,
+      "price1": 4661.884312662508,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -360600,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00021883861792170356,
+      "price1": 4569.577387651852,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -360400,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00022325922800886842,
+      "price1": 4479.098171746243,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -360200,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00022776913583392032,
+      "price1": 4390.410475671989,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -360000,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00023237014523973045,
+      "price1": 4303.478826715562,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -359800,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00023706409650737294,
+      "price1": 4218.268454535455,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -359600,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00024185286709218836,
+      "price1": 4134.745277254971,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -359400,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002467383723747157,
+      "price1": 4052.8758878303847,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -359200,
+      "liquidityActive": 31148437019881990,
+      "liquidityLockedToken0": 19339.31877512051,
+      "liquidityLockedToken1": 4.966481,
+      "price0": 0.0002517225664267936,
+      "price1": 3972.627540689014,
+      "isCurrent": true
+    },
+    {
+      "tickIdx": -359000,
+      "liquidityActive": 31148437019881990,
+      "liquidityLockedToken0": 19146.89717105617,
+      "liquidityLockedToken1": 5.016392,
+      "price0": 0.0002568074427931369,
+      "price1": 3893.968138631863,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -358800,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002619950352887015,
+      "price1": 3816.8662199956007,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -358600,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002672874188121558,
+      "price1": 3741.290946068733,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -358400,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002726867101757853,
+      "price1": 3667.2120887569404,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -358200,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002781950689521607,
+      "price1": 3594.6000184926475,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -358000,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0002838146983379094,
+      "price1": 3523.4256923839844,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -357800,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00028954784603493555,
+      "price1": 3453.6606425984064,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -357600,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00029539680514944084,
+      "price1": 3385.276964976318,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -357400,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.0003013639151091057,
+      "price1": 3318.2473078701555,
+      "isCurrent": false
+    },
+    {
+      "tickIdx": -357200,
+      "liquidityActive": 0,
+      "liquidityLockedToken0": 0,
+      "liquidityLockedToken1": 0,
+      "price0": 0.00030745156259879804,
+      "price1": 3252.544861204454,
+      "isCurrent": false
+    }
+  ]
+}
