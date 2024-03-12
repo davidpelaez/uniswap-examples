@@ -11,18 +11,35 @@ export const QUOTER_CONTRACT_ADDRESS =
 
 // Currencies and Tokens
 
-export const WETH_TOKEN = new Token(
-  SupportedChainId.MAINNET,
-  '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+// export const WETH_TOKEN = new Token(
+//   SupportedChainId.MAINNET,
+//   '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+//   18,
+//   'WETH',
+//   'Wrapped Ether'
+// )
+
+// export const USDC_TOKEN = new Token(
+//   SupportedChainId.MAINNET,
+//   '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
+
+export const COPM_TOKEN = new Token(
+  SupportedChainId.POLYGON,
+  '0x12050c705152931cFEe3DD56c52Fb09Dea816C23',
   18,
-  'WETH',
-  'Wrapped Ether'
+  'COPM',
+  'COP Minteo'
 )
 
+
 export const USDC_TOKEN = new Token(
-  SupportedChainId.MAINNET,
-  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+  SupportedChainId.POLYGON,
+  '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
   6,
   'USDC',
-  'USD//C'
+  'USD Coin'
 )
