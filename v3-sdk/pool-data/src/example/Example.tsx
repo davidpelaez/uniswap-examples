@@ -85,7 +85,7 @@ const Example = () => {
         </h2>
         <h3>
           Price: 1 {poolData?.pool.token0.symbol} ={' '}
-          {poolData?.pool.token0Price.toFixed(2)} {poolData?.pool.token1.symbol}
+          {poolData?.pool.token0Price.toFixed(5)} {poolData?.pool.token1.symbol}
         </h3>
         <h3>
           Price: 1 {poolData?.pool.token1.symbol} ={' '}
